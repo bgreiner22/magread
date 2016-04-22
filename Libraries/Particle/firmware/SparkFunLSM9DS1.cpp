@@ -127,7 +127,7 @@ void LSM9DS1::init(interface_mode interface, uint8_t xgAddr, uint8_t mAddr)
 		aBiasRaw[i] = 0;
 		mBiasRaw[i] = 0;
 	}
-	_autoCalc = false;
+	_autoCalc = true;
 }
 
 
